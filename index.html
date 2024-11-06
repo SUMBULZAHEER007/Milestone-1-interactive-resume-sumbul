@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumbul Zaheer - Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <h1>Sumbul Zaheer's Interactive Resume</h1>
+
+        <!-- Personal Information Section -->
+        <div id="personal-info">
+            <h2>Personal Information</h2>
+            <img src="images/profile-image.jpg" alt="Profile Picture" class="profile-image" />
+            <p><strong>Name:</strong> Sumbul Zaheer</p>
+            <p><strong>Email:</strong> sumbulzaheer001@gmail.com</p>
+            <p><strong>Phone:</strong> 123-456-7890</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sumbul-zaheer-b27b6a2b8" target="_blank">LinkedIn Profile</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/SUMBULZAHEER007" target="_blank">GitHub Profile</a></p>
+        </div>
+
+        <!-- Education Section -->
+        <div id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Matriculation (2011) - New Model High Secondary School, Science - Biology</li>
+                <li>Intermediate (2013) - Rana-e-Liaquat Govt. Girls Degree College, Commerce</li>
+                <li>GIAIC (2023) - Ongoing Certified Applied Cloud AI Engineering Program (Quarter 2)</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills">
+            <h2>Skills</h2>
+            <button id="toggle-skills-btn">Show Skills</button>
+            <ul id="skills-list" style="display:none;">
+                <li>Programming Languages: JavaScript, TypeScript, HTML, CSS</li>
+                <li>Frameworks: Next.js, React</li>
+                <li>Tools: Git, VS Code</li>
+            </ul>
+            
+            
+        </div>
+
+        <!-- Work Experience Section -->
+        <div id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Personal Projects</strong>
+                    <p>Developed several personal web development projects, including a <em>Portfolio Website</em> and a <em>To-Do List App</em>, using HTML, CSS, and JavaScript.</p>
+                </li>
+                <li><strong>Freelance Web Development</strong> (2023)
+                    <p>Created a simple website for a local business using basic HTML and CSS to help them establish an online presence.</p>
+                </li>
+            </ul>
+        </div>
+
+      
+  <!-- Generate Button -->
+  <button id="generateButton">Generate Below</button>
+
+  <!-- Resume Summary Section (Initially Hidden) -->
+  <div id="resume-output" style="display: none;">
+      <h3>Resume Summary</h3>
+      <p><strong>Name:</strong> Sumbul Zaheer</p>
+      <p><strong>Email:</strong> sumbulzaheer001@gmail.com</p>
+      <p><strong>Skills:</strong> JavaScript, TypeScript, HTML, CSS</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

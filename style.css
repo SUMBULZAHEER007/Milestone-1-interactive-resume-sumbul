@@ -1,0 +1,361 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with a soft gradient background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e6f0ff, #f5fafd);
+    color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main container */
+.resume-container {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0077b6;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+}
+
+/* Section content styling */
+p, ul {
+    text-align: left;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Profile image */
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #0077b6;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    background-color: #6c7a89;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #556678;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+/* Add a footer style */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    color: #777;
+}
+
+footer a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add background to section elements */
+section {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Add hover effect on the sections for better UX */
+section:hover {
+    background-color: #b2ebf2;
+}
+
+/* Section-specific hover effects */
+h2:hover {
+    color: #004d40;
+    border-color: #004d40;
+}
+/* Style for the buttons */
+button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #005f8b;
+}
+#skills-list {
+    display: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0077b6;
+    color: white;
+}
+#skills-list {
+    display: none;
+}
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Soft background color */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+/* Main Resume Container */
+.resume-container {
+    width: 100%;
+    max-width: 550px; /* Adjusted for compact resume */
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border: 1px solid #e0e0e0; /* Light border for subtle separation */
+    text-align: center;
+}
+
+/* Resume Title */
+h1 {
+    font-size: 32px;
+    color: #34495e; /* Darker title color */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: 120px; /* Adjusted for perfect ratio */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+/* Links Styling */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Skills Section */
+#skills {
+    margin-top: 25px;
+}
+
+#toggle-skills-btn {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#toggle-skills-btn:hover {
+    background-color: #3498db;
+}
+
+#skills-list {
+    display: none;
+    margin-top: 12px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills-list li {
+    background-color: #ecf0f1;
+    margin: 8px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Work Experience Section */
+#work-experience ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#work-experience li {
+    background-color: #ecf0f1;
+    margin-bottom: 18px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* Button Styling for 'Generate Below' */
+#generateButton {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#generateButton:hover {
+    background-color: #2ecc71;
+}
+
+/* Resume Summary Section (Initially Hidden) */
+#resume-output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    color: #34495e;
+    border: 1px solid #ddd;
+}
+
+#resume-output h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#resume-output p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #34495e;
+}
+
+#resume-output strong {
+    color: #2980b9;
+}
